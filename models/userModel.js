@@ -24,7 +24,7 @@ class UserModel {
           },
           message: (props) => `Este email de nombre ${props.value} es invalido`,
         },
-      },
+    },
       password: String,
       registerDate: Date,
       age: {

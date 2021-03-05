@@ -20,8 +20,7 @@ class RolesModel {
     return this.mymodel;
   }
   getSchema() {
-    return this.rolesSchema;
-  }
+    return this.rolesSchema;}
   createRol(roldata) {
     var rol = new this.mymodel(roldata);
     return new Promise((resolve, reject) => {

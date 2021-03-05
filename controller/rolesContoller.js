@@ -11,7 +11,7 @@ class RolesController {
     var id = req.params.id;
     var result = await roles.deleteRol(id);
     res.status(200).json({ serverResponse: result });
-  }
+}
   async updateRol(req, res) {
     var id = req.params.id;
     var body = req.body;

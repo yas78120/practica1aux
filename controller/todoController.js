@@ -17,7 +17,7 @@ class TodoController {
         async gettodo(request, response){
             var result = await Todo.gettodo();
             response.status(200).json(result);
-        }
+    }
         async updatetodo(request, response){
             var id = request.params.id;
             var updata= request.body;

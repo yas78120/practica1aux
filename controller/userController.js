@@ -12,7 +12,7 @@ class UserController {
     if (!USER.checkEmaildb(data.email)) {
       response
         .status(200)
-        .json({ serverResponse: "El email ya esta registrado" });
+        .json({ serverResponse: "El email ya esta registrad" });
       return;
     }
     var result = await USER.createUser(

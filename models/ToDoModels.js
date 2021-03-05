@@ -19,7 +19,6 @@ class todo{
             this.mymodel = modelenum["todo"]; 
         }
     }
-    
     createtodo(name, description, date, hour,done){
         let todo = {
             name,
